@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(250, 250, 250);
+    text-align: center;
+}
+
+.meet-logo{
+    text-align: center;
+    padding: 50px;
+}
+
+@media screen and (max-width: 800px){
+    .first-container{
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 0;
+    }
+
+    .second-container{
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 700px;
+    }
+
+    .image-one, .second-image{
+        width: 100%;
+        margin: 30px;
+    }
+    .third-container{
+        background-size: 100%;
+        background-position: center;
+        background-size: cover;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .second-text{
+        text-align: center;
+    }
+
+    .image-container{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .first-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    p.last-text{
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1#heading-two{
+        width: 100%;
+        padding: 20px;
+    }
+
+    img.img{
+        margin: 5;
+    }
+
+    img.img.first{
+        margin: 15px;
+    }
+
+    img.img.last{
+        margin-right: 15px;
+    }
+
+    button#button-three{
+        margin-bottom: 100px;
+    }
+}
+
+.first-container{
+    display: flex;
+    justify-content: space-between;
+    height: 230px;
+    margin: 0 -20px 100px -20px;
+}
+
+.third-container{
+    display: flex;
+    background-image: url(image-footer.jpg);
+    color: white;
+    height: 300px;
+    margin-top: 100px;
+    
+}
+
+.first-text{
+    text-align: center;
+}
+
+#first-paragraph{
+    margin: 30px;
+    color: rgb(68, 68, 68);
+}
+
+img{   
+    width: 300px;
+}
+
+h5{
+    color:rgb(0, 180, 180);
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+#heading-one{
+    font-size: 40px;
+    margin: 0;
+}
+
+#heading-two{
+    padding: 120px 150px 100px 150px;
+    margin: 0;
+}
+
+button{
+    margin: 5px;
+    padding: 15px;
+    border-radius: 25px;
+    border: transparent;
+    color: white;
+}
+
+#button-one{
+    width: 150px;
+    background-color: rgb(0, 150, 150);
+}
+
+#button-two{
+    width: 110px;
+}
+
+#button-three{
+    width: 150px;
+    height: 50px;
+    margin: auto;
+}
+
+#button-two, #button-three{
+    background-color: rgb(153, 20, 153);
+}
+
+#heading1{
+    margin-top: 0;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    border-radius: 5px;
+    margin: 15px;
+    width: 200px;
+}
+
+.first{
+    margin-left: 60px;
+}
+
+.last{
+    margin-right: 60px;
+}
+
+.second-text{
+    text-align: center;
+}
+
+.last-text{
+    margin: 0;
+    padding: 120px 100px 50px 100px;
+}
+
+.describe{
+    padding: 200px;
+    margin: 0 0 100px 0;
+    color: rgb(68, 68, 68);
+}
+
+#version1{
+    color:rgb(38, 230, 230);
+}
+
+#version2{
+    color:rgb(255, 152, 255);
+}
+
+.heading2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
