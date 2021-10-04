@@ -1,6 +1,5 @@
 body{
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(250, 250, 250);
     text-align: center;
 }
@@ -25,8 +24,9 @@ body{
 
     .image-one, .second-image{
         width: 100%;
-        margin: 30px;
+        margin: 30px 0 30px 0;
     }
+
     .third-container{
         background-size: 100%;
         background-position: center;
@@ -88,8 +88,7 @@ body{
     background-image: url(image-footer.jpg);
     color: white;
     height: 300px;
-    margin-top: 100px;
-    
+    margin-top: 100px; 
 }
 
 .first-text{
@@ -98,18 +97,33 @@ body{
 
 #first-paragraph{
     margin: 30px;
-    color: rgb(68, 68, 68);
+    color: rgb(135, 135, 157);
 }
 
 img{   
     width: 300px;
 }
 
+h1{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h2{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
 h5{
     color:rgb(0, 180, 180);
     justify-content: space-between;
     margin-top: 50px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+p{
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 #heading-one{
@@ -118,7 +132,7 @@ h5{
 }
 
 #heading-two{
-    padding: 120px 150px 100px 150px;
+    padding: 100px;
     margin: 0;
 }
 
@@ -132,11 +146,24 @@ button{
 
 #button-one{
     width: 150px;
-    background-color: rgb(0, 150, 150);
+    background-color: rgb(77, 150, 168);
+}
+
+#button-one:hover{
+    background-color: rgb(143, 227, 249);
+}
+
+#button-one :hover{
+    background-color: transparent;
 }
 
 #button-two{
     width: 110px;
+}
+
+#button-two:hover{
+    background-color: rgb(217, 184, 255);
+    color:rgb(250, 250, 250);
 }
 
 #button-three{
@@ -145,8 +172,13 @@ button{
     margin: auto;
 }
 
+#button-three:hover{
+    background-color: rgb(217, 184, 255);
+}
+
 #button-two, #button-three{
-    background-color: rgb(153, 20, 153);
+    background-color: rgb(133, 95, 177);
+    color:rgb(250, 250, 250);
 }
 
 #heading1{
@@ -181,18 +213,17 @@ button{
     padding: 120px 100px 50px 100px;
 }
 
-.describe{
-    padding: 200px;
+#describe{
     margin: 0 0 100px 0;
-    color: rgb(68, 68, 68);
+    color: rgb(135, 135, 157);
 }
 
 #version1{
-    color:rgb(38, 230, 230);
+    color:rgb(0, 180, 224);
 }
 
 #version2{
-    color:rgb(255, 152, 255);
+    color:rgb(69, 2, 146);
 }
 
 .heading2{
