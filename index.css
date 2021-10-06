@@ -211,7 +211,7 @@ button{
     border-radius: 5px;
     margin: 15px;
     width: 200px;
-    transition: 2s;
+    transition: 1s;
 }
 
 .img:hover{
